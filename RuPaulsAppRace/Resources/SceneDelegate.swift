@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         window?.makeKeyAndVisible()
-        window?.rootViewController = SeasonViewController()
+        window?.rootViewController = UINavigationController(rootViewController: AllSeasonsViewController())
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

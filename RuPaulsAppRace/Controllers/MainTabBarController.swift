@@ -5,21 +5,33 @@
 //  Created by Jean Ricardo Cesca on 11/08/22.
 //
 
-import UIKit
-
-class MainTabBarController: UITabBarController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        view.backgroundColor = .systemPink
-
-        let vc1 = UINavigationController(rootViewController: SeasonViewController())
-        vc1.tabBarItem.image = UIImage(systemName: "lasso.and.sparkles")
-        vc1.tabBarItem.title = "Season"
-
-        setViewControllers([vc1], animated: true)
-    }
-
-}
+//import UIKit
+//
+//class MainTabBarController: UITabBarController {
+//
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//
+//        view.backgroundColor = .systemBackground
+//
+//        let vc1 = UINavigationController(rootViewController: AllSeasonsViewController())
+//        let vc2 = UINavigationController(rootViewController: Sin())
+//        let vc3 = UINavigationController(rootViewController: NavigationViewController())
+//        let vc4 = UINavigationController(rootViewController: DirectMessagesViewController())
+//
+//        vc1.tabBarItem.image = UIImage(systemName: "house")
+//        vc1.tabBarItem.selectedImage = UIImage(systemName: "house.fill")
+//
+//        vc2.tabBarItem.image = UIImage(systemName: "magnifyingglass")
+//
+//        vc3.tabBarItem.image = UIImage(systemName: "bell")
+//        vc3.tabBarItem.selectedImage = UIImage(systemName: "bell.fill")
+//
+//        vc4.tabBarItem.image = UIImage(systemName: "envelope")
+//        vc4.tabBarItem.selectedImage = UIImage(systemName: "envelope.fill")
+//
+//        setViewControllers([vc1, vc2, vc3, vc4], animated: true)
+//
+//    }
+//}
 

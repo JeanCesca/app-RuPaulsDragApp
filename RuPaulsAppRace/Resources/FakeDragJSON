@@ -1,0 +1,77 @@
+// 20221007214549
+// http://www.nokeynoshade.party/api/seasons
+
+[
+  {
+    "id": 1,
+    "seasonNumber": "1",
+    "winnerId": 12,
+    "image_url": "https://vignette3.wikia.nocookie.net/logosrupaulsdragrace/images/8/81/Rpdr_season1.jpg",
+  },
+    {
+    "id": 2,
+    "seasonNumber": "2",
+    "winnerId": 24,
+    "image_url": "https://vignette1.wikia.nocookie.net/logosrupaulsdragrace/images/c/c0/Season2cast.png",
+  },
+    {
+    "id": 3,
+    "seasonNumber": "3",
+    "winnerId": 36,
+    "image_url": "https://vignette2.wikia.nocookie.net/logosrupaulsdragrace/images/e/e7/RPDRS3.jpg",
+  },
+    {
+    "id": 4,
+    "seasonNumber": "4",
+    "winnerId": 49,
+    "image_url": "https://vignette3.wikia.nocookie.net/logosrupaulsdragrace/images/7/73/Rpdr_season4.jpg",
+  },
+      {
+    "id": 6,
+    "seasonNumber": "5",
+    "winnerId": 63,
+    "image_url": "https://vignette2.wikia.nocookie.net/logosrupaulsdragrace/images/b/b6/S5cast.jpg",
+  },
+  {
+    "id": 7,
+    "seasonNumber": "6",
+    "winnerId": 80,
+    "image_url": "https://vignette3.wikia.nocookie.net/logosrupaulsdragrace/images/d/d7/S6cast.jpg",
+  },
+  {
+    "id": 8,
+    "seasonNumber": "7",
+    "winnerId": 94,
+    "image_url": "https://vignette2.wikia.nocookie.net/logosrupaulsdragrace/images/d/d8/S7cast.jpg",
+  },
+  {
+    "id": 9,
+    "seasonNumber": "8",
+    "winnerId": 106,
+    "image_url": "https://vignette3.wikia.nocookie.net/logosrupaulsdragrace/images/c/c1/S8cast.jpg",
+  },
+    {
+    "id": 11,
+    "seasonNumber": "9",
+    "winnerId": 124,
+    "image_url": "https://vignette4.wikia.nocookie.net/logosrupaulsdragrace/images/d/d5/97FMqTL.jpg",
+  },
+      {
+    "id": 13,
+    "seasonNumber": "10",
+    "winnerId": 126,
+    "image_url": "https://vignette.wikia.nocookie.net/logosrupaulsdragrace/images/a/af/RPDR_S10_Banner.jpeg",
+  },
+    {
+    "id": 15,
+    "seasonNumber": "11",
+    "winnerId": 152,
+    "image_url": "https://vignette.wikia.nocookie.net/logosrupaulsdragrace/images/8/83/S11Banner.jpg",
+  },
+  {
+    "id": 16,
+    "seasonNumber": "12",
+    "winnerId": 162,
+    "image_url": "https://vignette.wikia.nocookie.net/logosrupaulsdragrace/images/6/62/RPDRS12Banner.jpg/revision/latest?cb=20200123183541",
+  }
+]

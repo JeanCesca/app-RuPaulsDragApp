@@ -7,23 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F22246528F0FF8E0017DAFF /* FakeDragJSON in Resources */ = {isa = PBXBuildFile; fileRef = 0F22246428F0FF8E0017DAFF /* FakeDragJSON */; };
+		0F22246728F103B10017DAFF /* FakeAllStarsJSON in Resources */ = {isa = PBXBuildFile; fileRef = 0F22246628F103B10017DAFF /* FakeAllStarsJSON */; };
+		0F22246928F105560017DAFF /* SeasonsJSON.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F22246828F105560017DAFF /* SeasonsJSON.strings */; };
+		0F58C2CD28F07BD500AF3F74 /* SingleSeasonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F58C2CC28F07BD500AF3F74 /* SingleSeasonCell.swift */; };
+		0F58C2D028F0A30500AF3F74 /* SingleSeasonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F58C2CF28F0A30400AF3F74 /* SingleSeasonViewModel.swift */; };
 		0F700CDD28EF1A9B002FF48E /* DragData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F700CDC28EF1A9B002FF48E /* DragData.swift */; };
+		0F700CE028EF1F0C002FF48E /* AllSeasonsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F700CDF28EF1F0C002FF48E /* AllSeasonsViewModel.swift */; };
+		0F700CE328EF5BB4002FF48E /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 0F700CE228EF5BB4002FF48E /* SDWebImage */; };
 		0F7A8C0928A53B3600AF13F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A8C0828A53B3600AF13F5 /* AppDelegate.swift */; };
 		0F7A8C0B28A53B3600AF13F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A8C0A28A53B3600AF13F5 /* SceneDelegate.swift */; };
 		0F7A8C0D28A53B3600AF13F5 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A8C0C28A53B3600AF13F5 /* MainTabBarController.swift */; };
 		0F7A8C1228A53B3800AF13F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7A8C1128A53B3800AF13F5 /* Assets.xcassets */; };
 		0F7A8C1528A53B3800AF13F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7A8C1328A53B3800AF13F5 /* LaunchScreen.storyboard */; };
-		0F7A8C1D28A53FC900AF13F5 /* SeasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A8C1C28A53FC900AF13F5 /* SeasonViewController.swift */; };
+		0F7A8C1D28A53FC900AF13F5 /* AllSeasonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A8C1C28A53FC900AF13F5 /* AllSeasonsViewController.swift */; };
 		0F7A8C1F28A5439100AF13F5 /* DragManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A8C1E28A5439000AF13F5 /* DragManager.swift */; };
-		0F7A8C2328A5610300AF13F5 /* SeasonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A8C2228A5610300AF13F5 /* SeasonCell.swift */; };
-		0F7A8C2528A5BD4700AF13F5 /* DragViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A8C2428A5BD4700AF13F5 /* DragViewController.swift */; };
+		0F7A8C2328A5610300AF13F5 /* AllSeasonsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A8C2228A5610300AF13F5 /* AllSeasonsCell.swift */; };
+		0F7A8C2528A5BD4700AF13F5 /* SingleSeasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A8C2428A5BD4700AF13F5 /* SingleSeasonViewController.swift */; };
 		0F7A8C2728A5C16900AF13F5 /* SeasonHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A8C2628A5C16900AF13F5 /* SeasonHeaderView.swift */; };
 		0F7A8C2928A6762100AF13F5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A8C2828A6762100AF13F5 /* Utilities.swift */; };
 		0F7A8C3328A6963400AF13F5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7A8C3228A6963400AF13F5 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F22246428F0FF8E0017DAFF /* FakeDragJSON */ = {isa = PBXFileReference; lastKnownFileType = text; path = FakeDragJSON; sourceTree = "<group>"; };
+		0F22246628F103B10017DAFF /* FakeAllStarsJSON */ = {isa = PBXFileReference; lastKnownFileType = text; path = FakeAllStarsJSON; sourceTree = "<group>"; };
+		0F22246828F105560017DAFF /* SeasonsJSON.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = SeasonsJSON.strings; sourceTree = "<group>"; };
+		0F58C2CC28F07BD500AF3F74 /* SingleSeasonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSeasonCell.swift; sourceTree = "<group>"; };
+		0F58C2CF28F0A30400AF3F74 /* SingleSeasonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSeasonViewModel.swift; sourceTree = "<group>"; };
 		0F700CDC28EF1A9B002FF48E /* DragData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragData.swift; sourceTree = "<group>"; };
+		0F700CDF28EF1F0C002FF48E /* AllSeasonsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSeasonsViewModel.swift; sourceTree = "<group>"; };
 		0F7A8C0528A53B3600AF13F5 /* RuPaulsAppRace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuPaulsAppRace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F7A8C0828A53B3600AF13F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F7A8C0A28A53B3600AF13F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,10 +44,10 @@
 		0F7A8C1128A53B3800AF13F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F7A8C1428A53B3800AF13F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F7A8C1628A53B3800AF13F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F7A8C1C28A53FC900AF13F5 /* SeasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonViewController.swift; sourceTree = "<group>"; };
+		0F7A8C1C28A53FC900AF13F5 /* AllSeasonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSeasonsViewController.swift; sourceTree = "<group>"; };
 		0F7A8C1E28A5439000AF13F5 /* DragManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragManager.swift; sourceTree = "<group>"; };
-		0F7A8C2228A5610300AF13F5 /* SeasonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonCell.swift; sourceTree = "<group>"; };
-		0F7A8C2428A5BD4700AF13F5 /* DragViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragViewController.swift; sourceTree = "<group>"; };
+		0F7A8C2228A5610300AF13F5 /* AllSeasonsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSeasonsCell.swift; sourceTree = "<group>"; };
+		0F7A8C2428A5BD4700AF13F5 /* SingleSeasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSeasonViewController.swift; sourceTree = "<group>"; };
 		0F7A8C2628A5C16900AF13F5 /* SeasonHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonHeaderView.swift; sourceTree = "<group>"; };
 		0F7A8C2828A6762100AF13F5 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		0F7A8C3228A6963400AF13F5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -45,12 +58,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F700CE328EF5BB4002FF48E /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F58C2C928F07B3C00AF3F74 /* Seasons */ = {
+			isa = PBXGroup;
+			children = (
+				0F7A8C1C28A53FC900AF13F5 /* AllSeasonsViewController.swift */,
+				0F700CDF28EF1F0C002FF48E /* AllSeasonsViewModel.swift */,
+				0F7A8C2628A5C16900AF13F5 /* SeasonHeaderView.swift */,
+				0F7A8C2228A5610300AF13F5 /* AllSeasonsCell.swift */,
+			);
+			path = Seasons;
+			sourceTree = "<group>";
+		};
+		0F58C2CA28F07B8200AF3F74 /* SingleSeason */ = {
+			isa = PBXGroup;
+			children = (
+				0F7A8C2428A5BD4700AF13F5 /* SingleSeasonViewController.swift */,
+				0F58C2CF28F0A30400AF3F74 /* SingleSeasonViewModel.swift */,
+				0F58C2CC28F07BD500AF3F74 /* SingleSeasonCell.swift */,
+			);
+			path = SingleSeason;
+			sourceTree = "<group>";
+		};
 		0F700CDA28EF19DA002FF48E /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -62,20 +97,17 @@
 		0F700CDB28EF19E4002FF48E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0F22246428F0FF8E0017DAFF /* FakeDragJSON */,
+				0F22246628F103B10017DAFF /* FakeAllStarsJSON */,
+				0F22246828F105560017DAFF /* SeasonsJSON.strings */,
 				0F7A8C0828A53B3600AF13F5 /* AppDelegate.swift */,
 				0F7A8C0A28A53B3600AF13F5 /* SceneDelegate.swift */,
+				0F7A8C1328A53B3800AF13F5 /* LaunchScreen.storyboard */,
 				0F7A8C1128A53B3800AF13F5 /* Assets.xcassets */,
 				0F7A8C2828A6762100AF13F5 /* Utilities.swift */,
 				0F7A8C3228A6963400AF13F5 /* Extensions.swift */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		0F700CDE28EF1AD5002FF48E /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		0F7A8BFC28A53B3600AF13F5 = {
@@ -101,8 +133,6 @@
 				0F700CDA28EF19DA002FF48E /* Models */,
 				0F7A8C2F28A68A7900AF13F5 /* APICaller */,
 				0F7A8C3028A68A8600AF13F5 /* Controllers */,
-				0F700CDE28EF1AD5002FF48E /* ViewModels */,
-				0F7A8C3128A68A9C00AF13F5 /* Views */,
 				0F7A8C1628A53B3800AF13F5 /* Info.plist */,
 			);
 			path = RuPaulsAppRace;
@@ -120,20 +150,10 @@
 			isa = PBXGroup;
 			children = (
 				0F7A8C0C28A53B3600AF13F5 /* MainTabBarController.swift */,
-				0F7A8C1C28A53FC900AF13F5 /* SeasonViewController.swift */,
-				0F7A8C2428A5BD4700AF13F5 /* DragViewController.swift */,
+				0F58C2C928F07B3C00AF3F74 /* Seasons */,
+				0F58C2CA28F07B8200AF3F74 /* SingleSeason */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		0F7A8C3128A68A9C00AF13F5 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				0F7A8C2628A5C16900AF13F5 /* SeasonHeaderView.swift */,
-				0F7A8C2228A5610300AF13F5 /* SeasonCell.swift */,
-				0F7A8C1328A53B3800AF13F5 /* LaunchScreen.storyboard */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +172,9 @@
 			dependencies = (
 			);
 			name = RuPaulsAppRace;
+			packageProductDependencies = (
+				0F700CE228EF5BB4002FF48E /* SDWebImage */,
+			);
 			productName = RuPaulsAppRace;
 			productReference = 0F7A8C0528A53B3600AF13F5 /* RuPaulsAppRace.app */;
 			productType = "com.apple.product-type.application";
@@ -180,6 +203,9 @@
 				Base,
 			);
 			mainGroup = 0F7A8BFC28A53B3600AF13F5;
+			packageReferences = (
+				0F700CE128EF5BB4002FF48E /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 0F7A8C0628A53B3600AF13F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -194,8 +220,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F22246528F0FF8E0017DAFF /* FakeDragJSON in Resources */,
 				0F7A8C1528A53B3800AF13F5 /* LaunchScreen.storyboard in Resources */,
+				0F22246928F105560017DAFF /* SeasonsJSON.strings in Resources */,
 				0F7A8C1228A53B3800AF13F5 /* Assets.xcassets in Resources */,
+				0F22246728F103B10017DAFF /* FakeAllStarsJSON in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +236,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F7A8C0D28A53B3600AF13F5 /* MainTabBarController.swift in Sources */,
+				0F58C2D028F0A30500AF3F74 /* SingleSeasonViewModel.swift in Sources */,
 				0F7A8C0928A53B3600AF13F5 /* AppDelegate.swift in Sources */,
 				0F7A8C0B28A53B3600AF13F5 /* SceneDelegate.swift in Sources */,
-				0F7A8C2528A5BD4700AF13F5 /* DragViewController.swift in Sources */,
-				0F7A8C2328A5610300AF13F5 /* SeasonCell.swift in Sources */,
+				0F7A8C2528A5BD4700AF13F5 /* SingleSeasonViewController.swift in Sources */,
+				0F7A8C2328A5610300AF13F5 /* AllSeasonsCell.swift in Sources */,
 				0F7A8C3328A6963400AF13F5 /* Extensions.swift in Sources */,
-				0F7A8C1D28A53FC900AF13F5 /* SeasonViewController.swift in Sources */,
+				0F7A8C1D28A53FC900AF13F5 /* AllSeasonsViewController.swift in Sources */,
 				0F7A8C2928A6762100AF13F5 /* Utilities.swift in Sources */,
+				0F58C2CD28F07BD500AF3F74 /* SingleSeasonCell.swift in Sources */,
+				0F700CE028EF1F0C002FF48E /* AllSeasonsViewModel.swift in Sources */,
 				0F7A8C2728A5C16900AF13F5 /* SeasonHeaderView.swift in Sources */,
 				0F7A8C1F28A5439100AF13F5 /* DragManager.swift in Sources */,
 				0F700CDD28EF1A9B002FF48E /* DragData.swift in Sources */,
@@ -424,6 +456,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F700CE128EF5BB4002FF48E /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F700CE228EF5BB4002FF48E /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F700CE128EF5BB4002FF48E /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0F7A8BFD28A53B3600AF13F5 /* Project object */;
 }

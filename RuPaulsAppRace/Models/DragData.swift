@@ -6,18 +6,26 @@
 //
 
 import Foundation
-import UIKit
 
-
-struct Profile: Codable {
+//All Seasons
+struct AllSeasons: Codable {
     let id: Int
     let seasonNumber: String
     let image_url: String
-    let queens: [Queens]
+//    let queens: [Queens]
 }
 
-struct Queens: Codable {
+//struct Queens: Codable {
+//    let id: Int
+//    let name: String
+//    let place: Int
+//}
+
+//Single Season
+struct SingleSeason: Codable {
     let id: Int
     let name: String
-    let place: Int
+    let winner: Bool
+    let image_url: String?
+    let quote: String?
 }

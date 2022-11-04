@@ -7,53 +7,51 @@
 
 import Foundation
 import UIKit
+import SDWebImage
 
-class SeasonCell: UITableViewCell {
+class AllSeasonsCell: UITableViewCell {
     
-    let dragManager = DragManager()
-    
-    static let cellID = "SeasonCell"
+    static let id = "SeasonCell"
     
     let seasonLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.font = .systemFont(ofSize: 30, weight: .medium)
+        label.textColor = .systemPink
         return label
     }()
     
     let seasonImage: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.contentMode = .scaleToFill
+        imageView.adjustsImageSizeForAccessibilityContentSizeCategory = true
+        imageView.contentMode = .scaleAspectFill
+        imageView.clipsToBounds = true
         return imageView
     }()
     
     private func configureConstraints() {
         let seasonLabelCons = [
-            seasonLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
-            seasonLabel.topAnchor.constraint(equalTo: topAnchor),
+            seasonLabel.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
+            seasonLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
         ]
         
         let seasonImageCons = [
-            seasonImage.leadingAnchor.constraint(equalTo: leadingAnchor),
-            seasonImage.topAnchor.constraint(equalTo: topAnchor),
-            seasonImage.trailingAnchor.constraint(equalTo: trailingAnchor),
-            seasonImage.bottomAnchor.constraint(equalTo: bottomAnchor)
+            seasonImage.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            seasonImage.topAnchor.constraint(equalTo: contentView.topAnchor),
+            seasonImage.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
+            seasonImage.bottomAnchor.constraint(equalTo: contentView.bottomAnchor)
         ]
         
         NSLayoutConstraint.activate(seasonLabelCons)
         NSLayoutConstraint.activate(seasonImageCons)
     }
     
-    struct CellViewModel {
-        let season: String
-        let image_url: String
-    }
-    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
-        contentView.addSubview(seasonLabel)
+
         contentView.addSubview(seasonImage)
+        contentView.addSubview(seasonLabel)
         configureConstraints()
     }
     
@@ -61,9 +59,9 @@ class SeasonCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func configure(with vm: CellViewModel) {
-        seasonLabel.text = "Season \(vm.season)"
-        seasonImage.image = UIImage(systemName: "person.fill")
-//        seasonImage.image = dragManager.getImage(from: vm.image_url)
+    func configure(with vm: AllSeasonsViewModel) {
+        
+        guard let url = URL(string: vm.seasonImage) else { return }
+        seasonImage.sd_setImage(with: url)
     }
 }

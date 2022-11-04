@@ -1,0 +1,32 @@
+[
+  {
+    "id": 5,
+    "seasonNumber": "A1",
+    "winnerId": 48,
+    "image_url": "https://vignette3.wikia.nocookie.net/logosrupaulsdragrace/images/5/53/Allstars.jpg",
+  },
+    {
+    "id": 10,
+    "seasonNumber": "A2",
+    "winnerId": 62,
+    "image_url": "https://vignette1.wikia.nocookie.net/logosrupaulsdragrace/images/f/f4/AS2cast.jpg",
+  },
+  {
+    "id": 12,
+    "seasonNumber": "A3",
+    "winnerId": 89,
+    "image_url": "https://vignette.wikia.nocookie.net/logosrupaulsdragrace/images/2/20/AS3Banner.jpg/revision/latest/scale-to-width-down/690?cb=20171021020451",
+  },
+    {
+    "id": 14,
+    "seasonNumber": "A4",
+    "winnerId": null,
+    "image_url": "https://vignette.wikia.nocookie.net/logosrupaulsdragrace/images/e/ee/As4banner.jpg/revision/latest?cb=20181109232813",
+  },
+  {
+    "id": 17,
+    "seasonNumber": "A5",
+    "winnerId": 125,
+    "image_url": "https://vignette.wikia.nocookie.net/logosrupaulsdragrace/images/5/5f/AllStars5Cast.jpg/revision/latest/scale-to-width-down/690?cb=20200508170227",
+  }
+]
